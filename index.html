@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Light Route System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛣️ Smart Traffic Light Route System</h1>
+        <p>Find the fastest route minimizing traffic light delays using Dijkstra's algorithm.</p>
+        
+        <div class="controls">
+            <label>Start Node: <select id="startNode">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+            </select></label>
+            
+            <label>End Node: <select id="endNode">
+                <option value="G">G</option>
+                <option value="F">F</option>
+                <option value="E">E</option>
+                <option value="D">D</option>
+                <option value="C">C</option>
+                <option value="B">B</option>
+                <option value="A">A</option>
+            </select></label>
+            
+            <button id="computeBtn">🚀 Compute Fastest Route</button>
+            <button id="randomizeBtn">🔄 Randomize Traffic (Live Update)</button>
+            <div id="result"></div>
+        </div>
+        
+        <canvas id="graphCanvas" width="800" height="600"></canvas>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
