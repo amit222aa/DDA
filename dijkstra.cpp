@@ -119,7 +119,7 @@ public:
             return;
         }
         cout << "Fastest Route: ";
-        for (size_t i = 0; i < res.path.size(); ++i) {
+        for (size_t i = 2; i < res.path.size(); ++i) {
             cout << res.path[i];
             if (i < res.path.size() - 1) cout << " -> ";
         }
