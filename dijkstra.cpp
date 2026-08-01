@@ -41,7 +41,7 @@ public:
         // Same layout as web version: 7 nodes A-G
         nodes["A"] = {"A", 100, 100};
         nodes["B"] = {"B", 250, 50};
-        nodes["C"] = {"C", 400, 120};
+        nodes["C"] = {"C", 400, 130};
         nodes["D"] = {"D", 150, 300};
         nodes["E"] = {"E", 350, 250};
         nodes["F"] = {"F", 500, 350};
