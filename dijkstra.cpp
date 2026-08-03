@@ -40,7 +40,7 @@ public:
     void initGraph() {
         // Same layout as web version: 7 nodes A-G
         nodes["A"] = {"A", 100, 100};
-        nodes["B"] = {"B", 250, 50};
+        nodes["B"] = {"B", 250, 150};
         nodes["C"] = {"C", 400, 120};
         nodes["D"] = {"D", 150, 200};
         nodes["E"] = {"E", 350, 250};
