@@ -26,7 +26,7 @@ class Graph {
             ['A', 'B', 3], ['A', 'D', 7],
             ['B', 'A', 3], ['B', 'C', 4],
             ['C', 'B', 4], ['C', 'E', 2], ['C', 'G', 9],
-            ['D', 'A', 7], ['D', 'E', 6],
+            ['D', 'A', 7], ['D', 'E', 5],
             ['E', 'C', 2], ['E', 'D', 6], ['E', 'F', 5],
             ['F', 'E', 5], ['F', 'G', 1],
             ['G', 'C', 9], ['G', 'F', 1]
@@ -165,7 +165,7 @@ function drawGraph(highlightPath = new Set()) {
 
         // Node label
         ctx.fillStyle = '#fff';
-        ctx.font = `bold ${isPathNode ? 16 : 14}px Arial`;
+        ctx.font = `bold ${isPathNode ? 15 : 14}px Arial`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         ctx.fillText(pos.label, pos.x, pos.y);
